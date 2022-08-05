@@ -66,16 +66,16 @@
     };
 
     bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    switch (keycode) {
-        case AUDIO1:
-            if (record->event.pressed) {
-                PLAY_SONG(my_song);
-            }
-            return false;
-        default:
-            return true; 
+        switch (keycode) {
+            case AUDIO1:
+                if (record->event.pressed) {
+                    PLAY_SONG(my_song);
+                }
+                return false;
+            default:
+                return true; 
+        }
     }
-}
 
     void keyboard_post_init_user(void) {
         PLAY_SONG(my_song);
