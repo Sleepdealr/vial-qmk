@@ -43,3 +43,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                           _______, _______,                   _______,                            _______, _______
     )
 };
+
+
+// #undef LED_CAPS_LOCK_PIN
+
+layer_state_t layer_state_set_user(layer_state_t state) {
+    switch (get_highest_layer(state)) {
+        case 0:
+            writePin(GP18 , 0);
+            break;
+        case 1:
+            writePin(GP18, 1);
+            break;
+        default: //  for any other layers, or the default layer
+            writePin(GP18 , 0);
+            break;
+    }
+  return state;
+}

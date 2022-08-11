@@ -77,9 +77,12 @@
         }
     }
 
-    void keyboard_post_init_user(void) {
+    void keyboard_post_init_kb(void) {
+        wait_ms(250);
         PLAY_SONG(my_song);
     }
+
+
 
 #endif
 
