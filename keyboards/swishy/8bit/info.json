@@ -12,14 +12,12 @@
         "mousekey": false,
         "nkro": true,
         "audio": true,
-        "lto": true
+        "lto": true,
+        "rgblight": true
     },
     "rgblight": {
         "led_count": 1,
-        "pin": "E6",
-        "animations":{
-            "all": true
-        }
+        "pin": "E6"
     },
     "matrix_pins": {
         "cols": [ "F7", "F5", "F6", "B6", "B5", "B4", "D7", "D6", "D4", "D5", "D3", "D2", "D1", "D0"],

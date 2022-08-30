@@ -1,6 +1,6 @@
 {
     "name": "8Bit",
-    "lighting": "none",
+    "lighting": "qmk_rgblight",
     "matrix": {
       "rows": 5,
       "cols": 14
