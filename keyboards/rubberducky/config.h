@@ -3,6 +3,11 @@
 
 #pragma once
 
+
+#define PS2_CLOCK_PIN GP13
+#define PS2_DATA_PIN  GP14
+
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
