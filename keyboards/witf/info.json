@@ -21,14 +21,8 @@
     "url": "",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
-    },
-    "led":{
-        "caps_lock" : "A3",
-        "scroll_lock": "A4",
-        "num_lock": "A5",
-        "on_state": 0
+        "pid": "0x343F",
+        "vid": "0x1EF5"
     },
     "layouts": {
         "LAYOUT_all": {

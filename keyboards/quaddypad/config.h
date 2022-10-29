@@ -3,6 +3,12 @@
 
 #pragma once
 
+
+
+#define JOYSTICK_BUTTON_COUNT 0
+#define JOYSTICK_AXES_COUNT 2
+#define JOYSTICK_AXES_RESOLUTION 10
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
@@ -10,10 +16,6 @@
 
 /* disable debug print */
 //#define NO_DEBUG
-
-// #define LED_CAPS_LOCK_PIN A3
-// #define LED_SCROLL_LOCK_PIN A4
-// #define LED_NUM_LOCK_PIN A5
 
 /* disable print */
 //#define NO_PRINT

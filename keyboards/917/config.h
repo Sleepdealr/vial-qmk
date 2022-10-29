@@ -11,10 +11,6 @@
 /* disable debug print */
 //#define NO_DEBUG
 
-// #define LED_CAPS_LOCK_PIN A3
-// #define LED_SCROLL_LOCK_PIN A4
-// #define LED_NUM_LOCK_PIN A5
-
 /* disable print */
 //#define NO_PRINT
 
