@@ -9,6 +9,9 @@
 #define JOYSTICK_AXES_COUNT 2
 #define JOYSTICK_AXES_RESOLUTION 10
 
+#define BOOTMAGIC_LITE_ROW 0
+#define BOOTMAGIC_LITE_COLUMN 1
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
