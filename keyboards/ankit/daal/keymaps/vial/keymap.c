@@ -1,5 +1,22 @@
 #include QMK_KEYBOARD_H
 
+// layer_state_t layer_state_set_user(layer_state_t state) {
+//     switch (get_highest_layer(state)) {
+//         case 1:
+//             writePin(GP28, 1);
+//             break;
+//         default: //  for any other layers, or the default layer
+//             writePin(GP28 , 0);
+//             break;
+//     }
+//   return state;
+// }
+
+// bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+//      writePin(GP28, record->event.pressed);
+//     return true;
+// }
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_60_all(
         KC_ESC,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS, KC_EQL,  KC_BSLS, KC_GRV,

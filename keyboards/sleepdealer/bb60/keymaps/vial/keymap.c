@@ -1,5 +1,12 @@
 #include QMK_KEYBOARD_H
 
+#undef LED_CAPS_LOCK_PIN
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+     writePin(GP18, record->event.pressed);
+    return true;
+}
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [0] = LAYOUT_60_all(
