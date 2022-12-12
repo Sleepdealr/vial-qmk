@@ -3,13 +3,13 @@
 
 #include "quantum.h"
 
-#undef LED_SCROLL_LOCK_PIN
+// #undef LED_SCROLL_LOCK_PIN
 
-void keyboard_pre_init_kb(void) {
-    setPinOutput(B4); // Set LED pin as output
-}
+// void keyboard_pre_init_kb(void) {
+//     setPinOutput(B4); // Set LED pin as output
+// }
 
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-     writePin(B4, record->event.pressed);
-    return true;
-}
+// bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+//      writePin(B4, record->event.pressed);
+//     return true;
+// }
