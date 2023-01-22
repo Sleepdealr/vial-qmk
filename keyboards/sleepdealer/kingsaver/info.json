@@ -1,6 +1,6 @@
 {
     "manufacturer": "Sleepdealer",
-    "keyboard_name": "Kingsaver Redo",
+    "keyboard_name": "Kingsaver",
     "maintainer": "Sleepdealr",
     "bootloader": "stm32-dfu",
     "diode_direction": "COL2ROW",
