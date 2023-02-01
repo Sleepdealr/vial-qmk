@@ -16,12 +16,12 @@
         "cols": ["A4", "B14", "B15", "A8",  "A9",  "B10", "B2", "B1", "B0", "A7"],
         "rows": ["A5", "A6",  "B12", "B13", "A14", "A15", "B3", "B4", "B5", "B6"]
     },
-    "processor": "STM32F042",
+    "processor": "STM32F072",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
+        "pid": "0x0008",
+        "vid": "0x4A96"
     },
     "layouts": {
         "LAYOUT": {
