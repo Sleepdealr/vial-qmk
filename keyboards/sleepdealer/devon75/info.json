@@ -1,5 +1,6 @@
 {
     "keyboard_name": "Devon75",
+    "manufacturer": "Sleepdealer",
     "maintainer": "Sleepdealr",
     "processor": "RP2040",
     "bootloader": "rp2040",
@@ -21,6 +22,16 @@
     "matrix_pins": {
         "rows": ["GP25", "GP29", "GP28", "GP19", "GP20", "GP21"],
         "cols": ["GP18", "GP11", "GP15", "GP14", "GP13", "GP12", "GP7", "GP6", "GP5", "GP4", "GP3", "GP2", "GP1", "GP0", "GP27"]
+    },
+    "rgblight": {
+        "led_count": 3,
+        "pin": "GP26",
+        "animations": {
+            "alternating": true,
+            "rainbow_swirl": true,
+            "rainbow_mood": true,
+            "static_gradient": true
+        }
     },
     "layouts": {
         "LAYOUT": {

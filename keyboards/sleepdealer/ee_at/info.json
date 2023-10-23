@@ -13,8 +13,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["A4", "B14", "B15", "A8",  "A9",  "B10", "B2", "B1", "B0", "A7"],
-        "rows": ["A5", "A6",  "B12", "B13", "A14", "A15", "B3", "B4", "B5", "B6"]
+        "cols": ["A0", "B14", "B15", "A8",  "A9",  "B10", "B2", "B1", "B0", "A7"],
+        "rows": ["A1", "A2",  "B12", "B13", "A15", "B3", "B4", "B5", "B6", "B7"]
     },
     "processor": "STM32F072",
     "url": "",
@@ -22,6 +22,12 @@
         "device_version": "1.0.0",
         "pid": "0x0008",
         "vid": "0x4A96"
+    },
+    "indicators": {
+        "num_lock": "A4",
+        "caps_lock": "A14",
+        "scroll_lock": "A3",
+        "kana": "A5"
     },
     "layouts": {
         "LAYOUT": {

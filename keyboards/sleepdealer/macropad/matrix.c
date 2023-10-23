@@ -48,7 +48,7 @@ bool matrix_scan_custom(matrix_row_t current_matrix[]) {
 
     // initialize one byte filled with 1
     uint8_t pin_states = 0xFF;
-
+    // TODO: NEED TO MAKE THIS TWO BYTES FOR >8 switches
 
     if (status != UNPLUGGED || timer_elapsed32(retry_timer) > RETRY_TIMESPAN) {
         // If the chip was unplugged before, it needs to be re-initialized
@@ -79,7 +79,7 @@ bool matrix_scan_custom(matrix_row_t current_matrix[]) {
     }
 
     // Shift pin states by 1 to make room for the switch connected to the MCU, then OR them together and invert (as QMK uses inverted logic compared to the electrical levels)
-    matrix_row_t data = ~(pin_states << 1 | readPin(A5));
+    matrix_row_t data = ~(pin_states << 1 | readPin(A5)); // MAKE SURE TO MAKE THIS THE CORRECT DATATYPE
 
     bool changed = current_matrix[0] != data;
     current_matrix[0] = data;
