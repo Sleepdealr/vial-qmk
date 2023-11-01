@@ -1,0 +1,45 @@
+{
+    "manufacturer": "Sleepdealer",
+    "keyboard_name": "Macropad",
+    "maintainer": "Sleepdealr",
+    "bootloader": "stm32-dfu",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": false,
+        "encoder": true
+    },
+    "encoder": {
+        "rotary": [
+            {
+                "pin_a": "A6",
+                "pin_b": "A7"
+            }
+        ]
+    },
+    "processor": "STM32F072",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x000C",
+        "vid": "0x4A96"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [0, 3], "x": 3, "y": 0 },
+                { "matrix": [0, 4], "x": 0, "y": 1 },
+                { "matrix": [0, 5], "x": 1, "y": 1 },
+                { "matrix": [0, 6], "x": 2, "y": 1 },
+                { "matrix": [0, 7], "x": 3, "y": 1 }
+            ]
+        }
+    }
+}
